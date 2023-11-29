@@ -7,9 +7,9 @@
 
 body{
     display: flex;
-    /* height: 100vh;
-    justify-content: center; */
-    /* align-items: center; */
+     height: 100vh;
+    justify-content: center;
+     align-items: center;
     background: url(images/cust/register_pic.jpg);
     background-size: cover;
 }
