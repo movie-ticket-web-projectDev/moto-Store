@@ -1,0 +1,129 @@
+/* Background styling for a specific section with class bgColor */
+.bgColor {
+    background-image: url("../assets/img/slideImage2.jpg"); /* Set background image */
+    background-size: cover; /* Ensure the background image covers the entire element */
+    opacity: 85%; /* Set opacity for the background */
+}
+
+/* Button styling with class btnColor */
+.btnColor {
+    background-color: hwb(37 7% 5%); /* Set background color using HWB color model */
+}
+
+/* Basic styling for the body */
+
+/* Styling for a specific button with ID btn_Register */
+#btn_Register {
+    text-decoration: none; /* Remove underline for the link */
+    color: white; /* Set text color */
+}
+
+/* Styling for a circular element with ID circle */
+#circle {
+    width: 230px; /* Set width */
+    height: 230px; /* Set height */
+    line-height: 200px; /* Set line height */
+    border-radius: 50%; /* Make it a circle with border-radius */
+    -moz-border-radius: 50%; /* Firefox-specific border-radius */
+    -webkit-border-radius: 50%; /* Webkit-specific border-radius */
+    text-align: center; /* Center text within the circle */
+    background-color: white; /* Set background color */
+    font-size: 16px; /* Set font size */
+    text-transform: uppercase; /* Transform text to uppercase */
+    font-weight: 700; /* Set font weight */
+    margin: 50% 40px; /* Set margin */
+    margin-left: 15%; /* Adjust margin-left */
+    color: #000000; /* Set text color */
+    box-shadow: 0 0 0 10px #000000; /* Add a box shadow */
+}
+
+/* Styling for the body with background image and gradient */
+body {
+    font-family:1Arial, sans-serif; /* Set font family */
+    background-color: #f4f4f4; /* Set background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flex display */
+    justify-content: center; /* Center content horizontally */
+    align-items: start; /* Center content vertically */
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(bootstrap/cust/slideImage2.jpg); /* Set background image with gradient overlay */
+    background-size:fixed;/* Set background size to 100% */
+}
+
+/* Styling for the container holding the sign-up form */
+.container {
+    background-color: #000000; /* Set background color */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow:auto 10px #000000; /* Add a subtle box shadow */
+    width: 400px; /* Set width */
+    padding: 20px; /* Add padding */
+    opacity: 75%; /* Set opacity */
+}
+
+/* Styling for the sign-up form */
+.signup-form {
+    max-width: 4px; /* Set maximum width */
+    margin: 1px; /* Set margin */
+}
+
+/* Styling for the heading in the sign-up form */
+h2 {
+    font-size: 24px; /* Set font size */
+    color: #fff; /* Set text color */
+}
+
+/* Styling for the form within the sign-up container */
+.form {
+    display: flex; /* Use flex display */
+    flex-direction: row;/* Set flex direction to column */
+    gap: 10px; /* Add a gap between form elements */
+}
+
+/* Styling for labels in the form */
+label {
+    font-weight: bold; /* Set font weight to bold for labels */
+    color: #fff; /* Set text color */
+}
+
+/* Styling for input fields in the form */
+input {
+    padding: 5px; /* Add padding to input fields */
+    border: 1px solid #009688;
+    display: flex;
+    flex-direction: row; /* Set border color for input fields */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Styling for the submit button in the form */
+button {
+    background-color: #fff; /* Set background color for the button */
+    color: #009688; /* Set text color for the button */
+    padding: 10px; /* Add padding to the button */
+    border: olive; /* Set border color for the button */
+    border-radius: 5px; /* Add rounded corners */
+    font-weight: bold; /* Set font weight to bold for the button text */
+    cursor: pointer; /* Set cursor to pointer for the button */
+}
+
+/* Styling for the home link container */
+.home-link {
+    display: flex; /* Use flex display */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-top: 20px; /* Add margin at the top */
+}        
+
+/* Styling for links within the home link container */
+a {
+    text-decoration: none; /* Remove underline for links */
+    color: #fff; /* Set text color */
+    border: solid; /* Add a solid border */
+    border-radius: 25px; /* Add rounded corners */
+    padding-left: 5px; /* Add padding to the left */
+    padding-right: 5px; /* Add padding to the right */
+}
+
+/* Styling for text within the home link container */
+.home-link p {
+    color: #fff; /* Set text color */
+}
